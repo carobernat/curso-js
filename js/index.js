@@ -21,7 +21,8 @@ switch(sign) {
     default:
         alert("No pusiste ningún signo válido!")
 }
-*/
+
+Ejercicio switch:
 
 var day = prompt("Qué día querés chequear?").toUpperCase()
 
@@ -40,7 +41,25 @@ switch(day) {
     default:
         alert("El dato ingresado no es válido");
         break;
-
-
 }
+*/
+
+var gender = prompt("Are you male or female?").toLowerCase();
+var age = parseInt(prompt("How old are you?"));
+var isOldEnough = true;
+
+if (age < 18 && gender === "female") {
+    alert("Srta. Usted es menor de edad y no puede ingresar");
+} else if (age > 18 && gender === "female") {
+    alert();
+} else if (age < 18 && gender === "male") {
+    alert();
+} else if (age > 18 && gender === "male") {
+    alert();
+} else {
+    console.log("Every input is needed")
+}
+
+
+
 
