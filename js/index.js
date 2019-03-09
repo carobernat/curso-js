@@ -1,12 +1,21 @@
-var name = prompt("Cuál es tu nombre?");
-var num = prompt("Qué número querés sumar?");
-var num2 = 2;
-var num3 = prompt("Qué número querés restar?");
-var num4 = prompt("Qué número querés sumar?");
-var num5 = prompt("Con qué otro número?");
+var num1 = parseInt(prompt("Primer número"));
+var sign = prompt("Operación");
+var num2 = parseInt(prompt("Segundo número?"));
 
-console.log("Hola " + name);
-console.log(parseInt(num) + num2);
-console.log(parseInt(num3) - num2);
-console.log(parseInt(num4) + parseInt(num5));
+switch(sign) {
+    case "+":
+        alert(num1 + num2);
+        break;
+    case "-":
+        alert(num1 - num2);
+        break;
+    case "*":
+        alert(num1 * num2);
+        break;
+    case "/":
+        alert(num1 / num2);
+        break;
+    default:
+        alert("No pusiste ningún signo válido!")
+}
 
