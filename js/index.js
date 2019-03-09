@@ -1,3 +1,5 @@
+/* Ejercicio 1
+
 var name = prompt("Cuál es tu nombre?");
 var num = prompt("Qué número querés sumar?");
 var num2 = 2;
@@ -10,3 +12,5 @@ console.log(parseInt(num) + num2);
 console.log(parseInt(num3) - num2);
 console.log(parseInt(num4) + parseInt(num5));
 
+
+*/
