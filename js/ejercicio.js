@@ -14,7 +14,7 @@ console.log(parseInt(num3) - num2);
 console.log(parseInt(num4) + parseInt(num5));
 
 
-Calculadora
+Calculadora:
 
 var num1 = parseInt(prompt("Primer número"));
 var sign = prompt("Operación");
