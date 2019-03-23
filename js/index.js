@@ -84,7 +84,7 @@ do {
 
 console.log(num);
 
-*/
+
 
 function hello(name) {
     console.log("Hola " + name + "!");
@@ -107,10 +107,23 @@ function suma(num1, num2) {
 
 suma(23, 25);
 
+*/
 
 
 
+function personalInfo(name, lastName, age) {
+    name = prompt("Cuál es tu nombre?");
+    lastName = prompt("Cuál es tu apellido?");
+    age = prompt("Cuántos años tenés?");
 
+    if (name === "" || lastName === "" || age === "") {
+        return alert("Todos los campos son obligatorios");
+    } else {
+        return alert("Hola " + name + " " + lastName + ", de " + age + " años de edad!")
+    }
+}
+
+personalInfo();
 
 
 
