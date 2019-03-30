@@ -121,7 +121,7 @@ var studentA = new Student("Ezequiel", "Sosa", 32421169, "eze@gmail.com");
 var studentB = new Student("Damian", "Zucchi", 31727993, "dami@gmail.com");
 var studentC = new Student("Carolina", "Bernat", 35349062, "caro@gmail.com");
 
-studentList.push(studentA, studentB, studentC);
+students.push(studentA, studentB, studentC);
 
 console.log("El id del estudiante " + studentA.fullName() + " es " + studentA.getId());
 console.log("El id del estudiante " + studentB.fullName() + " es " + studentB.getId());
