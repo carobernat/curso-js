@@ -1,3 +1,4 @@
+/*
 
 var auto = {
     color: "blue",
@@ -62,7 +63,7 @@ var calc = new Calculadora(43, 54);
 console.log(calc);
 
 
-/*
+/!*
 Crear una función constructora de objetos Student
 Crear una función que permita crear un objeto Student mediante el constructor new, el objeto deberá tener las siguientes propiedades:
 Publicas:
@@ -77,7 +78,7 @@ Públicos:
 getId deberá devolver el id del objeto
 getFullName deberá devolver un String con el nombre completo del objeto, salvando los casos donde el firstName olastName sea undefined.
 Crear tres alumnos usando los datos de prueba y probar sus métodos.
-*/
+*!/
 
 var studentList = [];
 
@@ -115,7 +116,7 @@ for(var i = 0; i < studentList.length; i++) {
     console.log("El id del estudiante " + studentList[i].fullName() + " es " + studentList[i].getId());
 }
 
-/*
+/!*
 DRY!!
 var studentA = new Student("Ezequiel", "Sosa", 32421169, "eze@gmail.com");
 var studentB = new Student("Damian", "Zucchi", 31727993, "dami@gmail.com");
@@ -126,7 +127,7 @@ students.push(studentA, studentB, studentC);
 console.log("El id del estudiante " + studentA.fullName() + " es " + studentA.getId());
 console.log("El id del estudiante " + studentB.fullName() + " es " + studentB.getId());
 console.log("El id del estudiante " + studentC.fullName() + " es " + studentC.getId());
-*/
+*!/
 
 function Person(firstName, lastName, age){
     this.firstName = firstName;
@@ -142,9 +143,9 @@ var person = new Person(attrs[0], attrs[1], attrs[2]);
 
 console.log(person);
 
-/* Con esto, se toma el prompt como todo un string y se separa con split después.
+/!* Con esto, se toma el prompt como todo un string y se separa con split después.
 Cada uno de esos attrs que nos dio el split se manda a una posición del array después
- */
+ *!/
 
 function Videogame(title, year, console){
     var launchYear = 2000;
@@ -163,3 +164,4 @@ function Videogame(title, year, console){
 var pacman = new Videogame("PacMan", "1980", "Atari");
 
 console.log(pacman);
+*/

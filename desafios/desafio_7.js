@@ -17,7 +17,7 @@ Resultado ejemplo:
     E-mail: juan@gmail.com
   </p>
 </li>
-*/
+
 
 var student = {
     firstName: 'Juan',
@@ -52,3 +52,5 @@ function createStudentNode(studentObject) {
 }
 
 ul.appendChild(createStudentNode(student));
+
+*/

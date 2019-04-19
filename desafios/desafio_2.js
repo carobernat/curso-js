@@ -3,7 +3,7 @@
 Sr., Sra. o Sx.según corresponda y que también evalue si es mayor de edad o no al momento de construir el mensaje.
  Por ejemplo si el usuario ingresa male y 16, el mensaje debería ser Sr. usted es menor de edad no puede ingresar, si
  ingresa female y 34 el mensaje sería Sra. usted es mayor de edad puede ingresar.
- */
+
 
 
 var gender = prompt("Género: Sos hombre, mujer o indefinido?").toLowerCase();
@@ -24,3 +24,5 @@ if (age < 18 && gender === "mujer") {
 } else {
     alert("Todos los datos son necesarios")
 }
+
+*/

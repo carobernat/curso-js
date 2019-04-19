@@ -1,3 +1,4 @@
+/*
 //Crear un programa que muestre si un día es fin de semana
 //
 //
@@ -5,7 +6,7 @@
 //
 // TO-DO
 
-/*
+/!*
 for(var i = 1; i < 10; i++){
     console.log(i);
 }
@@ -14,7 +15,7 @@ var daysOfTheWeek = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabad
 
 for (var i = 0; i < daysOfTheWeek.length; i++){
     console.log(daysOfTheWeek[i]);
-} */
+} *!/
 
 
 //Crear una programa que devuelva la operación pedida
@@ -48,7 +49,7 @@ switch (sign) {
 
 alert(result);
 
-/*
+/!*
 Ejercicios:
 
 var name = prompt("Cuál es tu nombre?");
@@ -107,10 +108,10 @@ switch(day) {
         alert("El dato ingresado no es válido");
         break;
 }
-*/
+*!/
 
 
-/*
+/!*
 //===== WHILE =====
 //Mientras que counter sea mayor a 0, imprime el mensaje y le resta 1.
 
@@ -218,80 +219,81 @@ function suma(num1, num2) {
 
 suma(23, 25);
 
+*!/
+
+/!*
+Crear una función que calcule el promedio de un array
+Debe recibir como parámetro un array de números y devolver el calculo del promedio de todos los números.
+Probar la función.
+ *!/
+
+var examResults = [ 7, 5, 6, 4, 3, 2, 8 ]
+var average = sumArray(examResults);
+
+function sumArray(score){
+    var sumResult = 0;
+    for(var i = 0; i < score.length; i++){
+        sumResult += score[i];
+        result = sumResult / score.length;
+    }
+    return result;
+}
+
+alert("El promedio de las notas del examen es: " + average);
+
+
+var otherResults = [];
+var stillAdd = true;
+
+while(stillAdd) {
+    var num = parseInt(prompt("Agregar números"));
+    otherResults.push(num);     // para agregarle elementos a un array
+    var answer = prompt("Sigue?");
+
+    if (answer == "no") {
+        stillAdd = false;
+    }
+}
+
+alert(sumArray(otherResults));
+
+
+/!*
+Crear una función que calcule el promedio de un array
+Debe recibir como parámetro un array de números y devolver el calculo del promedio de todos los números.
+Probar la función.
+ *!/
+
+var examResults = [ 7, 5, 6, 4, 3, 2, 8 ]
+var average = sumArray(examResults);
+
+function sumArray(score){
+    var sumResult = 0;
+    for(var i = 0; i < score.length; i++){
+        sumResult += score[i];
+        result = sumResult / score.length;
+    }
+    return result;
+}
+
+alert("El promedio de las notas del examen es: " + average);
+
+
+var otherResults = [];
+var stillAdd = true;
+
+while(stillAdd) {
+    var num = parseInt(prompt("Agregar números"));
+    otherResults.push(num);     // para agregarle elementos a un array
+    var answer = prompt("Sigue?");
+
+    if (answer == "no") {
+        stillAdd = false;
+    }
+}
+
+alert(sumArray(otherResults));
+
+
+
 */
-
-/*
-Crear una función que calcule el promedio de un array
-Debe recibir como parámetro un array de números y devolver el calculo del promedio de todos los números.
-Probar la función.
- */
-
-var examResults = [ 7, 5, 6, 4, 3, 2, 8 ]
-var average = sumArray(examResults);
-
-function sumArray(score){
-    var sumResult = 0;
-    for(var i = 0; i < score.length; i++){
-        sumResult += score[i];
-        result = sumResult / score.length;
-    }
-    return result;
-}
-
-alert("El promedio de las notas del examen es: " + average);
-
-
-var otherResults = [];
-var stillAdd = true;
-
-while(stillAdd) {
-    var num = parseInt(prompt("Agregar números"));
-    otherResults.push(num);     // para agregarle elementos a un array
-    var answer = prompt("Sigue?");
-
-    if (answer == "no") {
-        stillAdd = false;
-    }
-}
-
-alert(sumArray(otherResults));
-
-
-/*
-Crear una función que calcule el promedio de un array
-Debe recibir como parámetro un array de números y devolver el calculo del promedio de todos los números.
-Probar la función.
- */
-
-var examResults = [ 7, 5, 6, 4, 3, 2, 8 ]
-var average = sumArray(examResults);
-
-function sumArray(score){
-    var sumResult = 0;
-    for(var i = 0; i < score.length; i++){
-        sumResult += score[i];
-        result = sumResult / score.length;
-    }
-    return result;
-}
-
-alert("El promedio de las notas del examen es: " + average);
-
-
-var otherResults = [];
-var stillAdd = true;
-
-while(stillAdd) {
-    var num = parseInt(prompt("Agregar números"));
-    otherResults.push(num);     // para agregarle elementos a un array
-    var answer = prompt("Sigue?");
-
-    if (answer == "no") {
-        stillAdd = false;
-    }
-}
-
-alert(sumArray(otherResults));
-
-
-

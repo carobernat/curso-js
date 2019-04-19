@@ -3,8 +3,7 @@
 /* Debe recibir como parámetro un texto y un Array de alumnos y buscar dentro del Array por nombre o apellido, si lo encuentra
 deberá devolver la posición en el Array del alumno, en caso contrario -1. La función solo encuentra coincidencias exactas,
 por ejemplo encuentra Fernandez, pero no Fer o fernandez.
-Probar que funcione correctamente. */
-
+Probar que funcione correctamente.
 
 var studentsList = [
     {
@@ -53,3 +52,5 @@ if (studentPos > 0) {
 } else {
     console.log("No se han encontrado resultados");
 }
+
+*/

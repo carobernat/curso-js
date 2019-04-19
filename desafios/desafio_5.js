@@ -13,7 +13,7 @@ includesText('Patrici', 'Pa') // Deberá devolver false
 includesText(2, 'Pa') // Deberá devolver false
 Hint: Se deberán pasar los parámetros recibidos a mayúsculas y luego hacer la comparación mediante indexOf para poder encontrar coincidencias parciales sin importar mayúsculas y minúsculas.
 
- */
+
 
 
 function includesText(text, baseText) {
@@ -29,3 +29,5 @@ function includesText(text, baseText) {
 }
 
 console.log(includesText("pa", "Patricia"));
+
+ */

@@ -25,7 +25,7 @@ uno la clase list-group-item y agregarlos a la lista provista uno por uno.
   <!-- Elementos de la lista -->
 </ul>
 
-*/
+
 
 var texts = ['Ed', 'Edd', 'Eddy' ];
 
@@ -40,3 +40,4 @@ for(var i = 0; i < texts.length; i++){
     li.className = "list-group-item";
 }
 
+*/

@@ -1,3 +1,4 @@
+/*
 
 function personalInfo(name, lastName, age) {
     name = prompt("Cuál es tu nombre?");
@@ -12,3 +13,4 @@ function personalInfo(name, lastName, age) {
 }
 
 personalInfo();
+*/

@@ -1,4 +1,5 @@
 /*
+/!*
 var list = "['Eddie', 'Dami']"; // Así lo toma como array
 
 localStorage.setItem('list', list);
@@ -70,7 +71,7 @@ console.log(tweetObj);
     localStorage.setItem("person", personJson);
     console.log(person.firstName + " tiene " + person.age + " años.");
 
-*/
+*!/
 
 // Pide un nombre en cada refresh y lo agrega al json array en el localstorage
 
@@ -94,3 +95,4 @@ localStorage.setItem('names', namesJson);
 console.log(names);
 
 
+*/

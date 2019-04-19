@@ -4,7 +4,7 @@ Crear una programa que devuelva la operación pedida
 * El programa debe:
 * Pedir la operación a realizar.
 * Pedir el primer parámetro y pedir el segundo, en caso de haber elegido división y cero volver a pedir el segundo parámetro hasta que ingrese un numero distinto de cero
-*/
+
 
 var num1 = parseInt(prompt("Primer número?"));
 var sign = prompt("Signo?");
@@ -34,3 +34,5 @@ switch (sign) {
 }
 
 alert(result);
+
+*/
