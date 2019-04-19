@@ -1,2 +1,2 @@
-# workshop
-Curso js
+# Curso JS  
+Coderhouse 2019
