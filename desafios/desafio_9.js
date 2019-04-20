@@ -15,10 +15,26 @@ email.blur(function (){
 })
 
 email.click(function () {
+    //$(this) => event.target en vanilla
     emailHelp.text("");
     email.removeClass('is-invalid is-valid');
 })
 
+
+/*
+$(document).ready(function(){
+  Esto es para que la función se ejecute una vez que carga el dom
+});
+
+$(document).on('click', function(){
+    Esto es para eventos custom
+})
+
+$(document).one('click', function(){
+   Esto es para que se ejecute una sóla vez
+})
+
+*/
 
 
 
