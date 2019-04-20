@@ -1,5 +1,3 @@
-/*
-
 var email = document.getElementById('email');
 var emailHelp = document.getElementById('emailHelp');
 
@@ -25,6 +23,6 @@ function resetStatus(event) {
     emailHelp.innerText = "";
     email.classList.remove("is-invalid", "is-valid");
 }
-*/
+
 
 
